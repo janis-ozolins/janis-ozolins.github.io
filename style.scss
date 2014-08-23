@@ -17,8 +17,31 @@ html {
   font-size: 100%;
 }
 
+img.bg {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
+
 body {
-	background: $white;
+  background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
 }
@@ -28,6 +51,7 @@ body {
   max-width: 740px;
   padding: 0 10px;
   width: 100%;
+  background: $white;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -149,6 +173,9 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: $lightGray;
 }
 
 .masthead {
@@ -269,7 +296,9 @@ nav {
 }
 
 .wrapper-footer {
-  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: $lightGray;
@@ -278,6 +307,24 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+#main {
+  border-radius: 5px;
+}
+
+#sticky-footer {
+  position: relative;
+  margin-top: 50px;
+  height: 100px; /*For while loading page*/
+}
+
+.visible {
+  visibility: visible;
+}
+
+.invisible {
+  visibility: hidden;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
