@@ -1,10 +1,11 @@
 ---
 layout: post
-title: You're up and running!
+title: Jekyll on Github
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below :point_down:).
+I created this page just to test out Github integration with Jekyll. Looks nice and fast :)
+In future maybe will do something here.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Jekyll static page generator. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.

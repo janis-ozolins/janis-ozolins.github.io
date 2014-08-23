@@ -179,7 +179,7 @@ img {
 }
 
 .masthead {
-  padding: 20px 0;
+  padding: $foot-head-padding-y 0;
   border-bottom: 1px solid $lightGray;
   
   @include mobile {
@@ -325,6 +325,15 @@ footer {
 
 .invisible {
   visibility: hidden;
+}
+
+/* @TODO magic height, position numbers*/
+.logo-image {
+  height: 600px;
+  background-image: url(images/font-img.png);
+  background-position: 130px 200px;
+  background-repeat: no-repeat;
+  background-color:rgba(0,0,0,0);
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS

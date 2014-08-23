@@ -4,12 +4,17 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Im Java developer, now working at [Autentica](http://www.autentica.lv/). Working at enterprise projects.
+In free time I like to ride my bicycle, watch movies but mostly doing nothing.
+Created this site to get better at front end development.
+
+<div style="text-align:center"><img src ="{{ site.baseurl }}/images/bicycle.png" /></div>
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+TODO :cat:
 
 ### Contact me
 
 [ozolins.janis.lv@gmail.com](mailto:email@domain.com)
+ 
