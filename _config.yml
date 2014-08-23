@@ -27,7 +27,7 @@ footer-links:
   pinterest: 
   rss: # just type anything here for a working RSS icon, make sure you set the "url" above!
   twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
+  stackoverflow: users/1511575/j-ozolins
 
 # Your disqus shortname, entering this will enable commenting on posts
 disqus: 
@@ -72,3 +72,6 @@ exclude:
     - Gemfile.lock
     - LICENSE
     - README.md
+    - .idea
+    - janis-ozolins.github.io.iml
+    - .sass-cache
